@@ -1,0 +1,7 @@
+node_modules
+build
+.idea
+server
+npm-debug.log
+nginx
+webpack.config.dev.js

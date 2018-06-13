@@ -1,0 +1,66 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color:#ffffff;
+    /*border-left:1px solid #f1f1f1;*/
+    border-radius: 2px;
+}
+::-webkit-scrollbar {
+    width:6px;
+    height:6px;
+}
+::-webkit-scrollbar-thumb {
+    background-color:#c2c2c2;
+    background-clip:padding-box;
+    border:1px solid #c2c2c2;
+    min-height:28px;
+}
+::-webkit-scrollbar-thumb:hover {
+    border:1px solid #c2c2c2;
+    background-color:#c2c2c2;
+}
+
+#main{
+    height: 100%;
+}
+.login-form {
+  max-height: 300px;
+  margin: auto;
+  position: absolute;
+  max-width: 300px;
+  /* margin: 0 auto; */
+  padding: 15px 15px 0 15px;
+  //border: 1px solid #eee;
+  /* margin-top: calc(100px + 15%); */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.login-form-forgot {
+    float: right;
+}
+.login-form-button {
+    width: 100%;
+}
+.login-form-input-logo{
+  font-size: 13px;
+  color:#97b5fb ;
+}
+.register-forget-box{
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  a{
+    display: inline-block;
+  }
+}
+.ant-form-item-control-wrapper{
+  margin-top: -5px;
+}
